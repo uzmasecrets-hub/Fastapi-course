@@ -2,6 +2,8 @@
 
 https://docs.astral.sh/uv/getting-started/installation/
 
+# Method 1 (Stand Alon)
+
 ## Installation on Windows
 
 ### Use irm to download the script and execute it with iex:
@@ -44,22 +46,24 @@ Then run: `uv -V`
 When uv is installed via the standalone installer, it can update itself on-demand:
 `uv self update`
 
-# When uv is installed via pip, it can update itself on-demand:
+When uv is installed via pip, it can update itself on-demand:
 `pip install --upgrade uv`
 
-```
 ### Initialize a new project with Specific Python version (if that python version is not installed on your system, it will installed automatically)
+
  uv init my-project --python 3.9
 
-### if Python is already installed 
+# Method 2 (if Python is already installed)
 
-```
-# With pip.
-pip install uv
+# With pip (Some Time Manage Path some time not).
+`pip install uv`
 
-# Or pipx.
-pipx install uv
+# Or better with pipx (Ensure Path management).
+`pip install pipx`
 
+`pipx ensurepath`
+
+`pipx install uv`
 
 ```
 
@@ -92,4 +96,5 @@ wget -qO- https://astral.sh/uv/install.sh | sh
 curl -LsSf https://astral.sh/uv/0.9.21/install.sh | sh
 
 ```
+
 
