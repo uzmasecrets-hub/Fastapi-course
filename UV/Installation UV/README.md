@@ -126,3 +126,7 @@ curl -LsSf https://astral.sh/uv/0.9.21/install.sh | sh
 - `pipx` is safer than `pip` for global installs
 - UV automatically manages Python versions
 - Ideal replacement for `pip`, `venv`, and `pyenv`
+
+## exceldraw note link:
+https://excalidraw.com/#json=E_j1ZERbSP0f3OlzKuDW3,7Nt4p2iWNtFtOWYxgBMZ6w
+
