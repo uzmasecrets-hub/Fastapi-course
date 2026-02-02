@@ -130,3 +130,14 @@ curl -LsSf https://astral.sh/uv/0.9.21/install.sh | sh
 ## exceldraw note link:
 https://excalidraw.com/#json=E_j1ZERbSP0f3OlzKuDW3,7Nt4p2iWNtFtOWYxgBMZ6w
 
+---
+
+## Author
+
+**Asif Imran**
+
+Happy Coding 🚀
+
+
+
+
