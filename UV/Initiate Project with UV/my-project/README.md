@@ -39,7 +39,9 @@ uv will automatically resolve and install any required dependencies and then exe
 | `uv add <package>` | Add a dependency |
 | `uv lock` | Generate a lockfile |
 | `uv sync` | Install dependencies from the lockfile |
-| `uv python list` | List Python versions available to uv |
+| `where uv` | Give Location where UV installed (works in cmd not powershel[in powershel command is 'Get-Command uv']))|
+| `where python` | Give Location where python all versions installed but if you installed using UV, it will not work |
+| `uv python list` | List Python versions available to uv (if you installed Pyhton using UV) |
 | `uv run <script>` | Run a Python script |
 | `uv venv` | Create a virtual environment |
 | `uv tool install <tool>` | Install a CLI tool |
@@ -122,6 +124,7 @@ Explore the complete uv documentation and advanced guides:
 **Asif Imran**
 
 Happy Coding 🚀
+
 
 
 
